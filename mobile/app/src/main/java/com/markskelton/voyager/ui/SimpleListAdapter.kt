@@ -18,13 +18,13 @@ class SimpleListAdapter : RecyclerView.Adapter<SimpleListAdapter.SimpleListViewH
     ): SimpleListViewHolder {
         val itemView = LayoutInflater
             .from(parent.context)
-            .inflate(R.layout.simple_list_item, parent, false)
+            .inflate(R.layout.list_item, parent, false)
 
         return SimpleListViewHolder(itemView)
     }
 
     override fun onBindViewHolder(holder: SimpleListViewHolder, position: Int) {
-        val nameView = holder.view.findViewById<TextView>(R.id.name)
+        val nameView = holder.view.findViewById<TextView>(R.id.text_view)
         nameView.text = entities[position]
     }
 

@@ -22,6 +22,11 @@
     <!-- Generic empty state -->
     <string name="empty_box_alt">Empty box</string>
 
+    <!-- Create entity dialog -->
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+
     <!-- Projects fragment -->
     <string name="add_project">Add project</string>
     <string name="create_project">Create project</string>
@@ -39,8 +44,8 @@
     <string name="log_list_empty_state_title">No logs found</string>
     <string name="log_list_empty_state_subtitle">Create a log to get started.</string>
 
-    <!-- Create entity dialog -->
-    <string name="name">Name</string>
-    <string name="cancel">Cancel</string>
-    <string name="create">Create</string>
+    <!-- Create log fragment -->
+    <string name="start_mileage">Starting mileage</string>
+    <string name="project">Project</string>
+    <string name="vehicle">Vehicle</string>
 </resources>
