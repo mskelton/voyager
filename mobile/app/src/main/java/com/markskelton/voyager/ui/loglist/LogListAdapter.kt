@@ -1,4 +1,4 @@
-package com.markskelton.voyager.ui.logs
+package com.markskelton.voyager.ui.loglist
 
 import android.view.LayoutInflater
 import android.view.View

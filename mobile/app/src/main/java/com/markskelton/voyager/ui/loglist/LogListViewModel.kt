@@ -1,4 +1,4 @@
-package com.markskelton.voyager.ui.logs
+package com.markskelton.voyager.ui.loglist
 
 import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
