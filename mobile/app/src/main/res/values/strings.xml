@@ -17,6 +17,7 @@
     <string name="menu_projects">Projects</string>
     <string name="menu_vehicles">Vehicles</string>
     <string name="menu_reports">Reports</string>
+    <string name="menu_create_log">Create log</string>
 
     <!-- Generic empty state -->
     <string name="empty_box_alt">Empty box</string>
