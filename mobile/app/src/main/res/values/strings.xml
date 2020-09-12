@@ -1,14 +1,7 @@
 <resources>
     <string name="app_name">Voyager</string>
 
-    <!-- Login -->
-    <string name="welcome">"Welcome to Voyager!"</string>
-    <string name="action_sign_in">Sign In</string>
-    <string name="welcome_sub_title">To get started, we\'ll need you to sign into your Google account.</string>
-    <string name="dashboard_title">Dashboard</string>
-
     <!-- App nav -->
-    <string name="nav_header_title">Voyager</string>
     <string name="nav_header_subtitle">Driving to victory</string>
     <string name="nav_header_image">App logo</string>
 
