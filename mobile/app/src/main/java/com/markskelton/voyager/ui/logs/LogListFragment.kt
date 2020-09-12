@@ -33,7 +33,7 @@ class LogListFragment : Fragment() {
         viewManager = LinearLayoutManager(context)
         viewAdapter = LogListAdapter()
 
-        binding.logListRecyclerView.apply {
+        binding.recyclerView.apply {
             // use this setting to improve performance if you know that changes
             // in content do not change the layout size of the RecyclerView
             setHasFixedSize(true)
@@ -42,7 +42,7 @@ class LogListFragment : Fragment() {
             adapter = viewAdapter
 
             val itemDecoration = DividerItemDecoration(
-                binding.logListRecyclerView.context,
+                binding.recyclerView.context,
                 viewManager.orientation
             )
             addItemDecoration(itemDecoration)

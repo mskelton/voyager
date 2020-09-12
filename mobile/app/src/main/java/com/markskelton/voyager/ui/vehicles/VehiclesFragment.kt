@@ -46,7 +46,7 @@ class VehiclesFragment : Fragment() {
         viewManager = LinearLayoutManager(context)
         viewAdapter = SimpleListAdapter()
 
-        binding.vehicleRecyclerView.apply {
+        binding.recyclerView.apply {
             // use this setting to improve performance if you know that changes
             // in content do not change the layout size of the RecyclerView
             setHasFixedSize(true)
@@ -55,7 +55,7 @@ class VehiclesFragment : Fragment() {
             adapter = viewAdapter
 
             val itemDecoration = DividerItemDecoration(
-                binding.vehicleRecyclerView.context,
+                binding.recyclerView.context,
                 viewManager.orientation
             )
             addItemDecoration(itemDecoration)
@@ -69,7 +69,7 @@ class VehiclesFragment : Fragment() {
     }
 
     private fun initializeAddButton() {
-        binding.addVehicleFab.setOnClickListener {
+        binding.fab.setOnClickListener {
             val fragment = CreateVehicleFragment()
 
             // When the user clicks create in the dialog, create a new vehicle in the database
