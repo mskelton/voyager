@@ -22,7 +22,7 @@ class CreateVehicleFragment : DialogFragment() {
                 .setTitle(R.string.create_vehicle)
                 .setView(view)
                 .setPositiveButton(R.string.create) { _, _ ->
-                    val nameView = view.findViewById<TextView>(R.id.dialog_name_input)
+                    val nameView = view.findViewById<TextView>(R.id.name_input)
                     onCreateVehicleListener(nameView.text.toString())
                 }
                 .setNegativeButton(R.string.cancel, null)

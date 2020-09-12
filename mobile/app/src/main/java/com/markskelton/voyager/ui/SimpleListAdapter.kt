@@ -24,7 +24,7 @@ class SimpleListAdapter : RecyclerView.Adapter<SimpleListAdapter.SimpleListViewH
     }
 
     override fun onBindViewHolder(holder: SimpleListViewHolder, position: Int) {
-        val nameView = holder.view.findViewById<TextView>(R.id.simple_list_item_name)
+        val nameView = holder.view.findViewById<TextView>(R.id.name)
         nameView.text = entities[position]
     }
 

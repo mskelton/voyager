@@ -46,7 +46,7 @@ class ProjectsFragment : Fragment() {
         viewManager = LinearLayoutManager(context)
         viewAdapter = SimpleListAdapter()
 
-        binding.projectRecyclerView.apply {
+        binding.recyclerView.apply {
             // use this setting to improve performance if you know that changes
             // in content do not change the layout size of the RecyclerView
             setHasFixedSize(true)
@@ -55,7 +55,7 @@ class ProjectsFragment : Fragment() {
             adapter = viewAdapter
 
             val itemDecoration = DividerItemDecoration(
-                binding.projectRecyclerView.context,
+                binding.recyclerView.context,
                 viewManager.orientation
             )
             addItemDecoration(itemDecoration)
@@ -69,7 +69,7 @@ class ProjectsFragment : Fragment() {
     }
 
     private fun initializeAddButton() {
-        binding.addProjectFab.setOnClickListener {
+        binding.fab.setOnClickListener {
             val fragment = CreateProjectFragment()
 
             // When the user clicks create in the dialog, create a new project in the database

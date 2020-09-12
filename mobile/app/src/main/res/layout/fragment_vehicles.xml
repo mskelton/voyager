@@ -20,7 +20,7 @@
         tools:context=".ui.vehicles.VehiclesFragment">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/vehicle_recycler_view"
+            android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:goneUnless="@{!resource.empty}"
