@@ -6,8 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.markskelton.voyager.R
 import com.markskelton.voyager.databinding.FragmentLogListBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -25,7 +27,10 @@ class LogListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentLogListBinding.inflate(layoutInflater)
+
         initializeRecyclerView()
+        initializeAddButton()
+
         return binding.root
     }
 
@@ -52,6 +57,12 @@ class LogListFragment : Fragment() {
             viewAdapter.entities = res
             viewAdapter.notifyDataSetChanged()
             binding.resource = res
+        }
+    }
+
+    private fun initializeAddButton() {
+        binding.fab.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_create_log)
         }
     }
 }

@@ -9,7 +9,17 @@
         android:id="@+id/nav_home"
         android:name="com.markskelton.voyager.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_create_log"
+            app:destination="@id/nav_create_log" />
+    </fragment>
+
+    <activity
+        android:id="@+id/nav_create_log"
+        android:name="com.markskelton.voyager.ui.log.create.CreateLogActivity"
+        android:label="@string/menu_create_log"
+        tools:layout="@layout/activity_create_log" />
 
     <fragment
         android:id="@+id/nav_projects"
