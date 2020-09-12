@@ -34,6 +34,7 @@
     <string name="vehicles_empty_state_subtitle">Create a vehicle to get started.</string>
 
     <!-- Log list fragment -->
+    <string name="add_log">Add log</string>
     <string name="log_list_empty_state_title">No logs found</string>
     <string name="log_list_empty_state_subtitle">Create a log to get started.</string>
 

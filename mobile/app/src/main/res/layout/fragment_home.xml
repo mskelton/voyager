@@ -8,7 +8,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/list"
-        android:name="com.markskelton.voyager.ui.loglist.LogListFragment"
+        android:name="com.markskelton.voyager.ui.log.list.LogListFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
