@@ -15,11 +15,11 @@
             app:destination="@id/nav_create_log" />
     </fragment>
 
-    <activity
+    <fragment
         android:id="@+id/nav_create_log"
-        android:name="com.markskelton.voyager.ui.log.create.CreateLogActivity"
+        android:name="com.markskelton.voyager.ui.log.create.CreateLogFragment"
         android:label="@string/menu_create_log"
-        tools:layout="@layout/activity_create_log" />
+        tools:layout="@layout/fragment_create_log" />
 
     <fragment
         android:id="@+id/nav_projects"
