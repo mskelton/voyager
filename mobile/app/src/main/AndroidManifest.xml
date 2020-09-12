@@ -23,7 +23,7 @@
 
         <activity
             android:name=".ui.log.create.CreateLogActivity"
-            android:label="@string/title_activity_create_log" />
+            android:label="@string/menu_create_log" />
     </application>
 
 </manifest>
