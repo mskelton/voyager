@@ -9,7 +9,6 @@
         android:id="@+id/project_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mike's Solar"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
 
     <TextView
@@ -17,7 +16,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/project_name"
-        android:text="Yukon"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
 
     <TextView
@@ -26,7 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@id/project_name"
-        android:text="36 mi"
         android:textAlignment="textEnd"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Caption" />
 
