@@ -1,0 +1,33 @@
+{
+  "name": "voyager-api",
+  "description": "Public API for the Voyager app.",
+  "main": "src/index.js",
+  "author": "Mark Skelton",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mskelton/voyager-api.git"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "watch": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@mskelton/eslint-config": "^5.11.2",
+    "eslint": "^7.6.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-sort": "^1.5.0",
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^4.2.0",
+    "@koa/router": "^9.3.1",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0"
+  }
+}

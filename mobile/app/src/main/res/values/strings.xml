@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Voyager</string>
+
+    <!-- Login -->
+    <string name="welcome">"Welcome to Voyager!"</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="welcome_sub_title">To get started, we\'ll need you to sign into your Google account.</string>
+    <string name="dashboard_title">Dashboard</string>
+
+    <!-- App nav -->
+    <string name="nav_header_title">Voyager</string>
+    <string name="nav_header_subtitle">Driving to victory</string>
+    <string name="nav_header_image">App logo</string>
+
+    <!-- Menu items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_projects">Projects</string>
+    <string name="menu_vehicles">Vehicles</string>
+    <string name="menu_reports">Reports</string>
+
+    <!-- Generic empty state -->
+    <string name="empty_box_alt">Empty box</string>
+
+    <!-- Projects fragment -->
+    <string name="add_project">Add project</string>
+    <string name="create_project">Create project</string>
+    <string name="projects_empty_state_title">No projects found</string>
+    <string name="projects_empty_state_subtitle">Create a project to get started.</string>
+
+    <!-- Vehicle fragment -->
+    <string name="add_vehicle">Add vehicle</string>
+    <string name="create_vehicle">Create vehicle</string>
+    <string name="vehicles_empty_state_title">No vehicles found</string>
+    <string name="vehicles_empty_state_subtitle">Create a vehicle to get started.</string>
+
+    <!-- Create entity dialog -->
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+</resources>
