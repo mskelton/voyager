@@ -9,7 +9,7 @@ data class Log(
     @PrimaryKey val id: Int,
     val projectId: Int,
     val vehicleId: Int,
-    val timestamp: Long = epoch(),
     val startMileage: Int,
-    val endMileage: Int
+    val endMileage: Int? = null,
+    val timestamp: Long = epoch(),
 )
