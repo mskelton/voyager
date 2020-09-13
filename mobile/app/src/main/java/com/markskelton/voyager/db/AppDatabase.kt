@@ -15,7 +15,7 @@ import com.markskelton.voyager.db.models.Vehicle
         Project::class,
         Vehicle::class
     ],
-    version = 4
+    version = 5
 )
 abstract class AppDatabase : RoomDatabase() {
     abstract fun logDao(): LogDao

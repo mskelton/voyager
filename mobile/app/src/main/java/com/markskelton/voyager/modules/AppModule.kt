@@ -33,7 +33,7 @@ object AppModule {
     fun provideDb(app: Application): AppDatabase {
         return Room
             .databaseBuilder(app, AppDatabase::class.java, "app.db")
-            .fallbackToDestructiveMigrationFrom(3)
+            .fallbackToDestructiveMigrationFrom(4)
             .build()
     }
 
