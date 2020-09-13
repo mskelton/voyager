@@ -36,7 +36,7 @@ class LogListAdapter : RecyclerView.Adapter<LogListAdapter.LogListViewHolder>() 
 
         val context = holder.itemView.context
         val entity = entities[position]
-        val totalMiles = entity.log.endMileage - entity.log.startMileage
+        // val totalMiles = entity.log.endMileage - entity.log.startMileage
 
         // Update the list item with the new data
         projectView.text = entity.project.name
