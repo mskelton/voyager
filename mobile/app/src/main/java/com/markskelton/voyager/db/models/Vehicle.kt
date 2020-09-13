@@ -6,6 +6,6 @@ import androidx.room.PrimaryKey
 @Entity
 data class Vehicle(
     @PrimaryKey(autoGenerate = true)
-    val id: Int,
-    val name: String
-)
+    override val id: Int,
+    override val name: String
+) : NamedEntity
